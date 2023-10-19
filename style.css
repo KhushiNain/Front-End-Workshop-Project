@@ -114,6 +114,7 @@
   
   #categories {
     margin-top: 100px;
+   
     height: 600px;
     background: linear-gradient(0deg, rgb(224, 224, 224), #ffffff);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
@@ -121,7 +122,9 @@
   
   #heading {
     padding-top: 30px;
-    margin-left: 20px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
     font-size: 30px;
     line-height: 1;
   }
@@ -191,6 +194,7 @@
     align-items: center;
   }
   
+  
   .one-row-grid {
     margin-top: 10px;
     background: linear-gradient(20deg, rgb(0, 0, 0), white, rgb(0, 0, 0));
@@ -213,7 +217,7 @@
   }
   
   .price {
-    width: 100px;
+    width: 100px; 
     display: flex;
     justify-content: space-around;
   }
