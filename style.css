@@ -346,18 +346,26 @@
     margin-right: 200px;
     background-color: white;
     box-shadow: 20px 10px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
 
   /* Fix Options-Container */
   #options-container {
     width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
   }
 
   /* Fix Category-Names */
   #category-names {
     padding-top: 10px;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-around ;
   }
 
   /* Fix Items */
@@ -369,6 +377,8 @@
     background-color: white;
     border: 2px solid black;
     box-shadow: inset 10px 10px 20px rgb(220, 220, 220, 1);
+    display:flex ;
+    flex-direction: column;
   }
 
   /* Fix Vegetables-Grid */
@@ -380,6 +390,9 @@
     height: 100%;
     padding: 20px;
     width: 95vw;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px;
   }
 
 
@@ -387,6 +400,8 @@
 
   #feedback {
     margin: 50px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
   }
 
   
@@ -395,4 +410,5 @@
   .profile {
     padding: 15px;
     width: 250px;
+    display: flex;
   }
